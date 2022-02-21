@@ -1,3 +1,5 @@
-let number = 20/10;
-let testString = "Hallo Joe";
-console.log(testString);
+import myModule from "./modules/myModule.js";
+
+myModule();
+
+console.log("Server is running - app.js");
